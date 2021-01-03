@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+body{
+font-family: 'Amatic SC', cursive; 
+  background-image:url("https://cdn.dribbble.com/users/2992258/screenshots/8871134/media/8369b792bd25d9df26365c2e0e9209f2.png");
+  background-size:130%
+}
+
+
+h1 {
+  font-size:500%;
+}
+h2,h3 {
+  font-size:300%;
+}
+body {
+  font-size:200%;
+}
+img, div {
+border-radius: 100px;
+}
+a {
+color: chilli;
+}
+img:hover{
+  cursor:pointer;
+  transform: scale(1.05);
+  box-shadow :0px 0px 5px 5px crimson;
+}
+h3:hover{
+  cursor:pointer;
+  animation: mymove 2s infinite;
+}
+@keyframes mymove{
+  from{color:red}
+  to{color:blue;font-size: 600%;}
+}
+h1:hover{
+  cursor:pointer;
+  animation: mymove 01.50s infinite;
+}
+@keyframes mymove{
+  from{color:red}
+  to{color:blue;font-size: 600%;}
+}
